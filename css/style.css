@@ -1,0 +1,345 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+   h3{font-size: 36px;
+    font-weight: bold;
+     font-size: 36px;
+     line-height: 56px;
+       margin-bottom: 1rem;
+      }
+  p{color: #7D7987;
+  }   
+body{font-family: 'Mulish', sans-serif;
+}
+  
+   .navbar {position: fixed;
+           
+   width: 100%;
+   z-index: 99;
+   background-color: white;
+   }
+   
+   
+                             
+   
+.navbar .navbar__logo{float: left;}
+
+
+.navbar .navbar__link{float: right;}
+
+.navbar .navbar__link li { display: inline-block;}
+.navbar .navbar__link li a{ text-transform: uppercase;
+                color:  #1F1534;
+                  text-decoration: none;
+                font-weight: bold;
+                padding:   1.3rem  ;
+                opacity: 0.5;
+                font-size: 18px;
+                
+                }
+.navbar .navbar__link  .active a {opacity: 1;}
+.navbar .navbar__link a:hover {opacity: 1;
+                                          } 
+                                          
+   /*home1*/                                        
+
+  #home {height: 100vh;
+         clear: both;
+       display: table;
+        padding-top: 10rem;
+         width: 100%;
+         background: url("../img/element.png") no-repeat;
+         background-position: 1% 33%;
+                                        }
+                                        
+      h1{ font-family: Mulish;
+        font-size: 48px;
+         font-weight: 700;
+        line-height: 56px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 1rem;
+         }    
+
+ 
+
+ #home .home__head p{font-size: 21px;
+  color: #7D7987;
+}
+ #home .home__head  {
+   vertical-align: middle;
+ 
+}    
+ 
+  #home .home__img img{width:100%;
+                       margin-top: 2rem;}
+  #home .home__head button{color: white;
+                        background: #458FF6;
+                        border-radius: 55px;
+                        width: 12rem;
+                        height: 56px;
+                        font-size: 18px;
+                        margin-top: 3rem;
+
+  }
+
+
+
+  #services{text-align: center;
+             padding: 4rem 0;
+             background:url("../img/element\ \(2\).png") no-repeat,url("../img/Vector.png") no-repeat ;
+              background-position: 86% 53%, 0% -12%;
+              margin-top: 10rem;
+              }
+          
+
+     #Check hr , #services   hr{width: 3rem;
+                margin: 0 auto 1rem; 
+               height: 0.3rem;
+             
+                background-color: black; }  
+
+             #services    .services-center{width: 70%;
+                                            margin: auto;
+                                            font-size: 18px;
+                                           color: #7D7987;
+                                           margin-bottom: 2rem;
+
+                                           }
+ #services .services__content{
+                           
+                              text-align: left;
+                                margin-top: 2rem;
+                          box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4); border-radius: 20px; 
+                          padding: 3rem;
+                        background-color: white;
+                            }
+        #services .services__content img, #services .services__content svg{margin-bottom:2rem ;}                    
+       #services .services__content h4{font-size: 24px;
+                                         margin-bottom: 1rem;}
+
+
+
+#services .services__content p{
+  
+  font-size: 16px;
+  
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+        }
+#services .services__content:hover .services__content-overlay {color: #62bdfc ;}
+  
+#Check button, #services  button{color: #458FF6;
+                font-size: 18px;
+                width: 700;
+                border: 0.3rem solid #458FF6;
+                margin: auto;
+               line-height: 60px;
+                padding: 0 3rem ;
+                border-radius: 3.5rem;
+               margin-top: 4.5rem;
+                background-color: white;
+                display: block;
+} 
+
+/*healthcare*/
+
+#healthcare{padding:9rem 0;
+            background: url("../img/element.png" ) no-repeat;
+            background-position: 100% 98%;     }
+
+
+      #healthcare  .healthcare__content{
+                                 
+                                  vertical-align: top;
+                                   padding-top:3.5rem ;
+                                  }
+
+
+ #apps .apps__content button,  #healthcare  .healthcare__content button {
+                                       color: #458FF6;
+                                      font-size: 18px;
+                                         width: 700;
+                                    border: 0.3rem solid #458FF6;
+                                      margin: auto;
+                                      line-height: 60px;
+                                    padding: 0 3rem ;
+                                   border-radius: 3.5rem;
+                                   background-color: white ;
+                                   margin-top: 2.5rem;    }                          
+
+
+     #apps .apps__content p , #healthcare  .healthcare__content p{                                  
+                                   font-size: 18px;
+                                  
+                                   font-weight: 300;
+                                   line-height: 30px;
+                                 
+                                   }
+                                   
+
+
+           #apps .apps__content hr , #healthcare  .healthcare__content hr { width: 3rem;
+                                      margin-bottom:1rem; 
+                                     height: 0.3rem;
+ 
+                                       background-color: black;
+                                         }                                  
+ #healthcare  .healthcare__img {width: 50%;
+                                  display: inline-block;   
+                                }
+ #healthcare  .healthcare__img  img{width: 100%;}  
+ 
+ /* apps*/
+
+  
+#apps .apps__content{
+margin: auto;
+vertical-align: top;
+ padding-top:3.5rem ;
+ }
+
+
+#apps .apps__content button i{margin-left: 0.5rem;
+                                }
+#apps .apps__img img {width: 100%;}
+
+
+/*customer*/
+#customer{
+          background: url(../img/element.png) no-repeat;
+        background-position: 12% 73%; 
+      margin: 10rem 0 10rem;    }
+ .customer__box{color: white;
+         background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);   
+        border-radius: 24px;
+        margin: auto;
+        text-align: center;
+        overflow: auto;
+        padding: 4rem 2rem;
+
+        
+      }
+      #customer hr{width: 3rem;
+      margin: auto; 
+   height: 0.3rem;
+
+     background-color: white;}   
+      #customer .customer__box   p{ color: #FFFFFF ;
+                                     font-size: 19px;
+       
+                                   font-weight: 400;
+                                    line-height: 30px;
+       
+                                 text-align: left;
+         
+                                                 }
+              
+      
+                                                 
+ #customer  .customer__box  .customer__person{
+                                   
+                                    padding-top: 2rem;
+                                  
+                                 
+                                   }
+ #customer .customer__box .customer__person img{display: inline-block;
+                                   border-radius: 50%;
+                                   border: 3px white solid;}
+
+ #customer .customer__box  .customer__content{
+                                  
+                                    padding-top:2rem ;
+                                
+                                    }
+   #customer  .customer__box .customer__person__name {display: inline-block;
+                                                         vertical-align: top;
+                                                         margin-top: 2.7rem;
+                                                         margin-left: 1rem;
+                                                       }                                
+     #customer  .customer__box  .customer__person   h5{
+                font-size: 22px;
+              
+                font-weight: 700;
+                line-height: 48px;
+                letter-spacing: 0em;
+               
+                }
+    
+      /*Check*/
+      #Check{ text-align: center;
+                  clear: both;
+               padding-bottom: 12rem;
+              background: url("../img/element\ \(1\).png") no-repeat ,url("../img/c1.png") no-repeat,url("../img/element\ \(2\).png") no-repeat;
+              background-position: 100% -40% ,95% 100%,11% 12% ;
+             }
+
+      #Check  .Check__content{
+                                margin-top: 3rem; 
+                       /* drop shadow */
+                         box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+                      border-radius: 20px;
+                      text-align: left;
+                      display: inline-block;
+                     line-height: 28px;
+                    
+                     background-color: white;
+                     
+                     
+     }
+     #Check  .Check__content img{width: 100%;}
+
+     #Check  .Check__content h5{
+        font-size: 21px;
+         font-weight: 700;
+     line-height: 32px;
+      text-align: left;
+
+     }
+     #Check  .Check__content  .check__text{padding:1rem 2rem;}
+     #Check  .Check__content a{
+    color: #4089ED;
+     text-decoration: none;
+     margin-top: 1.5rem;}
+
+     #Check  .Check__content a i{margin-left: 0.5rem;}
+
+     /*footer*/
+    footer{
+       background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+      }
+      footer li{list-style: none;
+                 color: white;
+font-size: 18px;
+font-weight: 300;
+line-height:30px;
+   } 
+
+      .footer__box img{margin-bottom: 1rem;
+                        margin-top:2rem;
+                      }
+          .footer__box p{
+                  font-size: 18px;
+                  font-weight: 300;
+                  line-height: 28px;
+                  color: white;
+                  margin-bottom: 1rem;
+          }
+          
+      li h5{
+        margin-top: 1.3rem;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        color: white;
+        }
+
+        #Check button:hover{background-color: rgba(8, 170, 220, 0.6);
+                       color: white;}
